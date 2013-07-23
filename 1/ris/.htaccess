@@ -1,0 +1,15 @@
+AuthName "Reserved Area"
+
+						AuthType Basic
+
+						AuthUserFile /www/HOME/it/p/r/o/protagonistideltempo/www/replay/Webapp/1/ris/.htpasswd
+<Files 'Dati inserimento video YouTube.pdf'>
+
+						require user grita
+
+</Files>
+<Files 'pixartprinting-template-grande-formato-manifesti.pdf'>
+
+						require user a
+
+</Files>

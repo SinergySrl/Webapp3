@@ -1,0 +1,158 @@
+/*
+    Document   : newCascadeStyleSheet
+    Created on : 14-mag-2012, 16.29.40
+    Author     : antoniosala
+    Description:
+        Purpose of the stylesheet follows.
+*/
+ul li {display:inline}
+
+@font-face {
+    font-family: 'TitilliumText22LRegular';
+    src: url('fonts/titilliumtext22l003-webfont.eot');
+    src: url('fonts/titilliumtext22l003-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/titilliumtext22l003-webfont.woff') format('woff'),
+        url('fonts/titilliumtext22l003-webfont.ttf') format('truetype'),
+        url('fonts/titilliumtext22l003-webfont.svg#TitilliumText22LRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+}
+.ui-body-c{
+    font-family: TitilliumText22LRegular, Verdana, sans-serif;
+    color: #666;
+}
+.ui-content{
+    padding:0;background:none
+}
+.ui-page {}
+
+#title-azienda{
+    width: 60%;
+    margin-left: 80px;
+}
+
+#title-sidebar{
+    margin-left: 30px;
+}
+
+.main-content{
+    padding: 40px;
+}
+.ui-footer {height: auto !important;
+
+min-height: 20px;
+
+overflow: hidden;background:#333;opacity:0.8}
+
+.ui-btn{
+    background:none;border:0;
+}
+.ui-btn-icon-top .ui-btn-inner{
+}
+
+.ui-icon {
+	background:none;
+    border-radius: 0;
+    height: 58px;
+    width: 68px;
+    margin-left: -34px;
+    margin-top: -5px;
+    border: none;
+}
+
+
+.ui-btn-icon-top .ui-btn-inner .ui-icon{
+    margin-left: -30px;
+}
+
+.ui-icon-shadow{
+    box-shadow: none;
+}
+
+
+.ui-btn-up-a, .ui-btn-hover-a, .ui-btn-down-a{
+     /* font-family: TitilliumText22LRegular, Verdana, sans-serif; */
+}
+
+.ui-btn-active {
+/*    font-family: TitilliumText22LRegular, Verdana, sans-serif; */
+    border: 1px solid black;
+background: #444;
+font-weight: bold;
+color: white;
+text-shadow: 0 1px 1px #111;
+}
+
+.ui-btn-active .ui-icon{
+    background-position: bottom;
+}
+
+.close-dialog{
+    width: 48px;
+    height: 48px;
+    background: url('../img/close.png') no-repeat;
+    border: none;
+}
+
+#dialog-contattaci .ui-header .ui-title, #dialog-contattaci  .ui-header h1{
+    font-size: 1.7em;
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#dialog-contattaci .ui-btn {
+height: 35px;
+}
+
+
+/*Slider*/
+
+.galleria li {list-style-type:none}
+.galleria img{width:28%;margin-right:3%;margin-bottom:3%;background:rgba(0,0,0,0.6);vertical-align:top;}
+
+.gal_prev li {list-style-type:none;display:block;padding-right:40px}
+.gal_prev div {padding:3%;clear:both}
+.gal_prev div a {text-decoration:none;text-transform:uppercase;font-size:14px}
+.gal_prev div a img {width:20%;float:left;margin-right:3%;border:6px solid #fff}
+
+
+
+#wrapper {
+	width: 80%;
+	margin: 0 auto
+	}
+
+.accordionButton {	
+	width: 100%;
+	cursor: pointer;
+	color:#fff
+	}
+	
+.accordionContent {	
+	width: 100%;
+		color:#fff
+	}
+.accordionContent div img {	
+	width: 100%;
+	height:100%
+	}	
+	
+/***********************************************************************************************************************
+ EXTRA STYLES ADDED FOR MOUSEOVER / ACTIVE EVENTS
+************************************************************************************************************************/
+
+.on {
+	}
+	
+.over {
+	}
+	
+.ru {font-family: 'Noto Sans', sans-serif;}
+
+.novisible {display:none}
+.visible {}	
